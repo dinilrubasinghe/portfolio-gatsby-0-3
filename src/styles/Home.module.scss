@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+$font-home-body: "Comfortaa", cambria, cursive;
+$font-home-title: "DM Serif Display", serat, cambria, cursive;
+
+.row {
+  padding: 0 5rem;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+  h1 {
+    font-size: 7rem;
+    font-family: $font-home-title;
+    font-weight: 100;
+    margin: 25rem 0 0 5rem;
+  }
+  p {
+    margin: 0 0 0 5rem;
+    font-size: 2rem;
+    font-family: $font-home-body;
+  }
+  .sum {
+    // margin: 28rem 0 0 5rem;
+    // padding: 0 10rem;
+    font-size: 1.2rem;
+    line-height: 5rem;
+    color: #d4d4d4;
+  }
+}
