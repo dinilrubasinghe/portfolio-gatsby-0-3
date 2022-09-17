@@ -1,0 +1,14 @@
+$font-home-title: "DM Serif Display", serat, cambria, cursive;
+
+nav {
+  height: fit-content;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 1.5% 5%;
+  
+  a {
+    font-family: $font-home-title;
+    text-decoration: none;
+    padding: 1rem 2%;
+  }
+}

@@ -2,8 +2,27 @@
   box-sizing: border-box;
   background-color: #000000;
   color: #ffffff;
-  
+
   .layouts {
     font-size: 12px;
+
+    section {
+      min-height: 98vh;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #c0c0c0;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #fff;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
   }
 }
