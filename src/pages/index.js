@@ -11,9 +11,9 @@ export default function Home () {
           <p>Nice to meet you!✌️</p>
           <p className={styles.sum}>A passionate Student, an Explorer, a Programmer, a Great Designer and a Hobiest</p>
         </div>
-        {/* <div className={styles.column}>
-          <p className={styles.sum}>A passionate Student, an Explorer, a Programmer, a Great Designer and a Hobiest</p>
-        </div> */}
+        <div className={styles.column}>
+
+        </div>
       </section>
     </Layouts>
   )

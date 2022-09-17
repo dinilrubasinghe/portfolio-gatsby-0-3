@@ -22,7 +22,7 @@ $font-home-title: "DM Serif Display", serat, cambria, cursive;
     font-size: 7rem;
     font-family: $font-home-title;
     font-weight: 100;
-    margin: 25rem 0 0 5rem;
+    margin: 22rem 0 0 5rem;
   }
   p {
     margin: 0 0 0 5rem;
@@ -33,7 +33,8 @@ $font-home-title: "DM Serif Display", serat, cambria, cursive;
     // margin: 28rem 0 0 5rem;
     // padding: 0 10rem;
     font-size: 1.2rem;
-    line-height: 5rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
     color: #d4d4d4;
   }
 }
